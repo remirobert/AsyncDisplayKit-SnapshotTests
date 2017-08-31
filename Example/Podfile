@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AsyncDisplayKit-SnapshotTests_Example' do
+  pod 'AsyncDisplayKit-SnapshotTests', :path => '../'
+
+  target 'AsyncDisplayKit-SnapshotTests_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
