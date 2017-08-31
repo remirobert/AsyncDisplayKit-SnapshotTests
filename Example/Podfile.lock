@@ -1,6 +1,11 @@
 PODS:
-  - AsyncDisplayKit-SnapshotTests (0.1.0):
+  - AsyncDisplayKitSnapshotTests (0.1.0):
     - Texture (~> 2.3)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
   - PINCache (3.0.1-beta.4):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
     - PINCache/Core (= 3.0.1-beta.4)
@@ -25,19 +30,22 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
-  - AsyncDisplayKit-SnapshotTests (from `../`)
+  - AsyncDisplayKitSnapshotTests (from `../`)
+  - FBSnapshotTestCase
+  - Texture
 
 EXTERNAL SOURCES:
-  AsyncDisplayKit-SnapshotTests:
+  AsyncDisplayKitSnapshotTests:
     :path: ../
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit-SnapshotTests: 94512165a828f911b5a01cc2e19899c07acf9176
+  AsyncDisplayKitSnapshotTests: 144ab4eafc0dcc74e233de6a011b3b20323e5bbd
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   PINCache: a89c8f609232afac77128557bd12c861844423d7
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: e4e02e15a6f96cedbcef2abf1c9c1228dc9897d7
   Texture: e01a363c2b6567e1ff27a878995e0d271fbb424c
 
-PODFILE CHECKSUM: ca045c63468e733ef75b08fac9d152fb5f05427f
+PODFILE CHECKSUM: 3763b4c5aef8d65edf072a097e4f33fa3562a79d
 
 COCOAPODS: 1.3.1

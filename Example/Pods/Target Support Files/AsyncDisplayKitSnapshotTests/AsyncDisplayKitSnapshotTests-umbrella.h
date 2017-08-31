@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double AsyncDisplayKit_SnapshotTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char AsyncDisplayKit_SnapshotTestsVersionString[];
+FOUNDATION_EXPORT double AsyncDisplayKitSnapshotTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char AsyncDisplayKitSnapshotTestsVersionString[];
 

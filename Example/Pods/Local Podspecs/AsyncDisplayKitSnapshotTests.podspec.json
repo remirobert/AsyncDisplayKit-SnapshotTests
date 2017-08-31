@@ -17,8 +17,9 @@
   },
   "social_media_url": "https://twitter.com/remi936",
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
+  "frameworks": "XCTest",
   "source_files": "AsyncDisplayKit-SnapshotTests/Classes/**/*",
   "dependencies": {
     "Texture": [

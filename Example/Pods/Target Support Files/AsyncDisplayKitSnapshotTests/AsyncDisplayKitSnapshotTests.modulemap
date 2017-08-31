@@ -1,0 +1,6 @@
+framework module AsyncDisplayKitSnapshotTests {
+  umbrella header "AsyncDisplayKitSnapshotTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

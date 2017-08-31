@@ -1,11 +1,11 @@
 use_frameworks!
 
 target 'AsyncDisplayKit-SnapshotTests_Example' do
-  pod 'AsyncDisplayKit-SnapshotTests', :path => '../'
+  pod 'AsyncDisplayKitSnapshotTests', :path => '../'
 
   target 'AsyncDisplayKit-SnapshotTests_Tests' do
     inherit! :search_paths
-
-    
+    pod 'FBSnapshotTestCase'
+    pod 'Texture'
   end
 end
