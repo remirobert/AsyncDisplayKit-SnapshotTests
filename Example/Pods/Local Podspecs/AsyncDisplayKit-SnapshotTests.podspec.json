@@ -15,8 +15,14 @@
     "git": "https://github.com/remirobert/AsyncDisplayKit-SnapshotTests.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/remi936",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AsyncDisplayKit-SnapshotTests/Classes/**/*"
+  "source_files": "AsyncDisplayKit-SnapshotTests/Classes/**/*",
+  "dependencies": {
+    "Texture": [
+      "~> 2.3"
+    ]
+  }
 }

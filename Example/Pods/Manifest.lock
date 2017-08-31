@@ -1,5 +1,28 @@
 PODS:
-  - AsyncDisplayKit-SnapshotTests (0.1.0)
+  - AsyncDisplayKit-SnapshotTests (0.1.0):
+    - Texture (~> 2.3)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.9):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.9):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.9):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - Texture (2.3.3):
+    - Texture/PINRemoteImage (= 2.3.3)
+  - Texture/Core (2.3.3)
+  - Texture/PINRemoteImage (2.3.3):
+    - PINRemoteImage/iOS (= 3.0.0-beta.9)
+    - PINRemoteImage/PINCache
+    - Texture/Core
 
 DEPENDENCIES:
   - AsyncDisplayKit-SnapshotTests (from `../`)
@@ -9,7 +32,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit-SnapshotTests: e2381e86b3fa8f28fea4c9a2e3dedb6ebf3a480b
+  AsyncDisplayKit-SnapshotTests: 94512165a828f911b5a01cc2e19899c07acf9176
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: e4e02e15a6f96cedbcef2abf1c9c1228dc9897d7
+  Texture: e01a363c2b6567e1ff27a878995e0d271fbb424c
 
 PODFILE CHECKSUM: ca045c63468e733ef75b08fac9d152fb5f05427f
 
